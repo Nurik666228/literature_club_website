@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    /* header and the void */
+    height: 200px;
+    display: flex; /* align items horizontally */
+    justify-content: space-between; /* align first element to the left and right to the right */
+}
+
+.top_left_void {
+    width: 5%;
+    height: 200px;
+    background-color: #6FF0E2;
+    opacity: 50%; /* прозрачность */
+}
+
+.top_center_content {
+    width: 90%;
+}
+
+.top_center_void {
+    width: 100%;
+    height: 40px;
+    background-color: #6FF0E2;
+    opacity: 50%;
+}
+
+.main_header {
+    /* actual header */
+    width: 100%;
+    height: 160px;
+    background-color: #6FF0E2;
+}
+
+.top_right_void {
+    width: 5%;
+    height: 200px;
+    background-color: #6FF0E2;
+    opacity: 50%;
+}
+
+main {
+    height: 1290px;
+    display: flex; /* align items horizontally */
+    justify-content: space-between; /* align first element to the left and right to the right */
+}
+
+.main_left_void {
+    width: 5%;
+    height: 100%;
+    background-color: #E0E0E0;
+    opacity: 50%;
+}
+
+.main_content {
+    width:90%;
+}
+
+.main_right_void {
+    width: 5%;
+    height: 100%;
+    background-color: #E0E0E0;
+    opacity: 50%;
+}
+
+/* emty space for other styles
+
+styles of footer will be in the
+bottom of the file
+*/
+
+
+footer {
+    /* footer and the void */
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_left_void {
+    width: 5%;
+    height: 310px;
+    background-color: #92E7EF;
+    opacity: 50%; /* прозрачность */
+}
+
+.bottom_center_content {
+    width: 90%;
+}
+
+.main_footer {
+    /* actual footer */
+    width: 100%;
+    height: 270px;
+    background-color: #92E7EF;
+}
+
+.bottom_center_void {
+    width: 100%;
+    height: 40px;
+    background-color: #92E7EF;
+    opacity: 50%;
+}
+
+.bottom_right_void {
+    width: 5%;
+    height: 310px;
+    background-color: #92E7EF;
+    opacity: 50%;
+}

@@ -6,6 +6,8 @@ body{
     justify-content: space-between;
 }
 
+/*start of header*/
+
 header{
     /* header and the void */
     height: 200px;
@@ -36,6 +38,34 @@ header{
     width: 100%;
     height: 160px;
     background-color: #6FF0E2;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo {
+    margin: 0 60px 0 60px;
+}
+
+@font-face {
+    font-family: 'PacificoRegular';
+    src: url(fonts/ofont.ru_Pacifico.ttf);}
+
+.club_name {
+    font-family: PacificoRegular;
+    font-size: 38px;
+}
+
+.right_side_header {
+    margin: 0 60px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.lang_button {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
 }
 
 .top_right_void {
@@ -45,10 +75,17 @@ header{
     opacity: 50%;
 }
 
+/*end of header*/
+
+/*start of navigation*/
+
+
+/*end of navigation*/
+
 main {
     height: 1290px;
     display: flex; /* align items horizontally */
-    justify-content: space-between; /* align first element to the left and right to the right */
+    justify-content:space-between; /* align first element to the left and right to the right */
 }
 
 .main_left_void {
@@ -68,6 +105,7 @@ main {
     background-color: #E0E0E0;
     opacity: 50%;
 }
+
 
 /* emty space for other styles
 

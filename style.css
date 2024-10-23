@@ -68,6 +68,14 @@ header{
     align-items: center;
 }
 
+.lang_selection {
+    margin-left: 10px;
+}
+
+.profile {
+    margin-left: 20px;
+}
+
 .top_right_void {
     width: 5%;
     height: 200px;
@@ -79,6 +87,49 @@ header{
 
 /*start of navigation*/
 
+nav {
+    height: 80px;
+    background-color: #FFDC9B;
+    border-radius: 0 0 120px 120px;
+    display: flex;
+}
+
+.nav_button_left {
+    border-radius: 0 0 0 120px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.nav_button {
+    width: 25%;
+    border-left: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.nav_button_right {
+    border-radius: 0 0 120px 0;
+    width: 25%;
+    border-left: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.nav_button_left, .nav_button, .nav_button_right:visited {
+    color: black;
+}
+
+.nav_button_text {
+    font-weight: bold;
+    font-size: 36px;
+}
 
 /*end of navigation*/
 
@@ -108,6 +159,10 @@ main {
 
 
 /* emty space for other styles
+
+
+
+
 
 styles of footer will be in the
 bottom of the file

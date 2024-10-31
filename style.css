@@ -148,7 +148,6 @@ nav {
 /*start of main block*/
 
 main {
-    height: 1290px;
     display: flex; /* align items horizontally */
     justify-content:space-between; /* align first element to the left and right to the right */
 }

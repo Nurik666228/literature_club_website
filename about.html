@@ -7,72 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <style>
         body {
-            height: 1800px;
+            height: 2110px;
         }
 
-        main {
-            height: 1290px;
-        }
-
-        .main_content {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-        }
-
-        .nav_button_left {
+        #current_page {
             background-color: #A67418;
         }
 
-        .description {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .description_text {
-            padding-top: 60px;
-            padding-right: 8%;
-        }
-
-        .italic_text {
-            font-style: italic;
-            font-size: 36px;
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
-
-        .discussions {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .discussions_text_and_button {
-            display: flex;
-            align-items: center;
-        }
-
-        .disussions_text {
-            margin-right: 20px;
-        }
-
-        .news {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .news_text_and_button {
-            display: flex;
-            align-items: center;
-        }
-
-        .news_button {
-            transform: rotate(180deg);
-        }
-
-        .news_text {
-            margin-left: 20px;
+        main {
+            height: 1600px;
         }
     </style>
 </head>
@@ -107,7 +50,7 @@
         <div class="main_and_nav">
             <!--Actual main block-->
             <nav>
-                <a href="#" class="nav_button_left">
+                <a href="main.html" class="nav_button_left">
                     <p class="nav_button_text">Басты бет</p>
                 </a>
                 <a href="" class="nav_button">
@@ -116,49 +59,14 @@
                 <a href="" class="nav_button">
                     <p class="nav_button_text">Жаңалықтар</p>
                 </a>
-                <a href="about.html" class="nav_button_right">
+                <a href="" class="nav_button_right" id="current_page">
                     <p class="nav_button_text">Біз туралы</p>
                 </a>
             </nav>
             <div class="main_content">
                 <!--This code is different for every page-->
-                <div class="description">
-                    <img src="images/книга.png" alt="">
-                    <div class="description_text">
-                        <p class="italic_text">1000-нан астам</p>
-                        <p class="italic_text">жазушылар мен</p>
-                        <p class="italic_text">оқырмандарды</p>
-                        <p class="italic_text">біріктіреміз</p>
-                    </div>
-                </div>
-                <div class="discussions">
-                    <div class="discussions_text_and_button">
-                        <div class="disussions_text">
-                            <p class="italic_text">Өз талқылауыңызды</p>
-                            <p class="italic_text">жасаңыз немесе барға</p>
-                            <p class="italic_text">қосылыңыз</p>
-                        </div>
-                        <a href="#">
-                            <img src="images/кнопка перехода 1.png" alt="" width="75px" height="75px">
-                        </a>
-                    </div>
-                    <img src="images/вопрос-ответ.png" alt="">
-                    </button>
-                </div>
-                <div class="news">
-                    <img src="images/новости.png" alt="">
-                    <div class="news_text_and_button">
-                        <a class="news_button" href="#">
-                            <img src="images/кнопка перехода 1.png" alt="" width="75px" height="75px">
-                        </a>
-                        <div class="news_text">
-                            <p class="italic_text">әдебиет әлеміндегі</p>
-                            <p class="italic_text">соңғы жаңалықтардан</p>
-                            <p class="italic_text">хабардар болыңыз</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End of code that different for every page--> 
+ 
+                <!--End of code that different for every page-->
             </div>
         </div>
         <div class="main_right_void"></div>
